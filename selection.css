@@ -1,0 +1,260 @@
+:root {
+  /* Colors-What-I-Need */
+  --background-color: #FFFFFF;
+  --background-dark: #1D1C1C;
+  --card: #F6F2EF;
+  --accent-magenta: #FF5678;
+  --accent-green: #149770;
+  --text-primary: #1D1C1C;
+  --text-secondary: #787878;
+  --text-reversed: #FFFFFF;
+  --primary-pink: #F45678;
+}
+
+h1, h2 {
+ font-family: 'Nunito', sans-serif;
+}
+
+p, a {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Add styles here */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.headline {
+  color: var(--accent-magenta);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.about, .selection {
+text-decoration: none; 
+color: var(--text-primary);
+margin: 38px auto auto 40px;
+}
+
+.login {
+background-color: var(--primary-pink);
+border-radius: 20px;
+align-items: center;
+text-align: center;
+letter-spacing: 3px;
+color: var(--text-reversed);
+border-color: var(--primary-pink);
+margin: 38px 140px auto 40px;
+}
+
+
+button {
+background-color: var(--primary-pink);
+color: var(--background-color);
+border-radius: 20px;
+padding: 10px 20px;
+border-color: var(--background-color);
+border: none;
+}
+
+.selection-headline {
+font-weight: 800;
+font-size: 48px;
+line-height: 65px;
+}
+
+.selection-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.sort {
+  text-decoration: none; 
+  color: var(--text-primary);
+  font-size: 20px;
+  margin-right: 24px;
+}
+
+.dropbtn {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 3px;
+  color: var(--text-primary);
+  background-color: var(--card);
+  border-radius: 24px;
+  padding: 12px 22px;
+  justify-content: space-between;
+  margin-right: 24px;
+}
+
+.dropbtn > img {
+  background-color: var(--text-primary);
+  transform: rotate(90deg);
+  border-radius: 22px;
+  size: 22px;
+}
+
+.coffee-brand {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  padding: 40px auto;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+div > p > strong {
+  align-self: flex-start;
+  font-size: 16px;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  align-items: center;
+  width: 100%;
+}
+
+.origin {
+  align-self: flex-start;
+}
+
+.label {
+  align-items: center;
+  text-align: flex-end;
+}
+
+.buybtn {
+  background: var(--accent-magenta);
+  border-radius: 24px;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  padding: 12px 58px;
+}
+/*
+.outer-box {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--card);
+  position: relative;
+  height: 446px;
+  width: 373px;
+  left: 120px;
+  top: 281px;
+  border-radius: 16px;
+  padding: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: 27px;
+  gap: 8px;
+  flex: 1 1 auto;
+} 
+*/
+.beans-card {
+  justify-content: flex-start;
+  justify-content: space-around;
+  position: relative;
+  width: 300px;
+/*   flex-basis: 200px; */
+}
+
+.inner-box {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  width: 115px;
+  height: 30px;
+  color: var(--text-reversed);
+  border-radius: 20px 0 0 20px;
+  background-color: var(--accent-green);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Nunito;
+}
+
+/* .coffe-image {
+  flex: 0 1 auto;
+  margin: 40px;
+} */
+.coffe-image {
+  width: 100%;
+  
+}
+
+
+.special {
+  font-size: 48px;
+  font-weight: bolder;
+  margin: 10px 10px 24px 12px;
+}
+
+section {
+  margin: 120px 120px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  background-color: var(--background-dark);
+  color: var(--text-reversed);
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.find-us {
+  margin-top: 60px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: 26px;
+  width: 32px;
+  left: 10px;
+  top: 3px;
+  margin: 10px;
+}
+
+  /* Tablet */
+  @media (max-width: 768px) {
+  .outer-box {
+    width: 50%;
+  }
+}
+
+  /* Mobile */
+  @media (max-width: 500px) {
+  .outer-box {
+    width: 100%;
+  }
+}
+

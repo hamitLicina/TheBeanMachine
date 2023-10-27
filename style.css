@@ -10,24 +10,8 @@
   --primary-pink: #F45678;
 }
 
-h1, h2 {
+h1, h2, p, a  {
   font-family: 'Nunito', sans-serif;
-}
-
-p, a {
-  font-family: 'Nunito Sans', sans-serif;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  margin: 0 auto;
-  width: 80%;
 }
 
 /* Add styles here */
@@ -36,37 +20,37 @@ body {
   display: flex;
   justify-content: space-between;
   font-family: 'Nunito', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .headline {
   color: var(--accent-magenta);
   font-weight: bold;
   margin: 45px auto auto 120px;
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
 .about, .selection {
-  text-decoration: none; 
   color: var(--text-primary);
-  margin: 38px auto auto 40px;
+  margin: 2rem auto auto 2rem;
+  border-radius: 1rem;
 }
 
 .login {
   background-color: var(--primary-pink);
-  border-radius: 20px;
+  border-radius: 1,1rem;
   align-items: center;
   text-align: center;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   color: var(--text-reversed);
   border-color: var(--primary-pink);
-  margin: 38px 140px auto 40px;
+  margin: 2rem 5rem auto 2rem;
 }
 
 .banner-container {
   display: flex;
   flex-direction: row;
-  margin: 200px auto auto 120px;
+  margin: 5rem auto auto 5rem;
 }
 
 .header {
@@ -75,59 +59,58 @@ body {
 
 .header > h1 {
   font-weight: 800;
-  font-size: 88px;
+  font-size: 5rem;
   width: 100%;
   height: auto;
 }
 
 .header > h2 {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 3rem;
   width: 100%;
-  margin-top: 16px;
+  margin-top: 2rem;
   height: auto;
 }
 
 .search-container {
   display: flex;
   flex-direction: row;
-  padding: 16px 24px;
-  font-weight: 400;
-  font-size: 22px;
+  padding: 1rem 1,5rem;
+  font-size: 1rem;
   align-items: center;
   color: var(--text-secondary);
-  flex-basis: 400px;
-  margin-top: 60px;
-  margin-left: 16px;
+  flex-basis: 10rem;
+  margin-top: 5rem;
+  margin-left: 1rem;
 }
 
 .search-box {
-  font-size: 16px;
+  font-size: 1rem;
   border-width: 0;
-  width: 376px;
-  height: 64px;
+  width: 20rem;
+  height: 4rem;
   background-color: var(--card);
-  border-radius: 16px;
+  border-radius: 1.2rem;
 }
 
 .arrow {
-  margin-left: 10px;
-  height: 64px;
-  width: 64px;
+  margin-left: 1rem;
+  height: 4rem;
+  width: 4rem;
   border-radius: 50%;
 }
 
 button {
   background-color: var(--primary-pink);
   color: var(--background-color);
-  border-radius: 20px;
+  border-radius: 1rem;
   padding: 10px 20px;
   border-color: var(--background-color);
   border: none;
 }
 
 code {
-  font-size: 22px;
+  font-size: 1.5rem;
 }
 
 .image-parent {
@@ -136,30 +119,32 @@ code {
 
 .image {
   display: flex;
-  flex: 1 1 680px;  
+  flex: 1 1 auto;  
   max-width: "680px";
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 .about-us {
-  margin: 80px auto auto 120px;
-  padding: 80px 20px;
-  border-block: 2px solid var(--text-secondary);
-  display: inline-block;
+  margin: 5rem;
+  padding: 3rem;
+  border-top: 3px solid var(--text-secondary);  
+  border-bottom: 3px solid var(--text-secondary);
 }
 
 .about-us > h2 {
-  font-size: 48px;
-  margin-bottom: 24px;
-  margin-top: 80px;
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  margin-top: 3rem;
   font-weight: bolder;
 }
 
 .about-us > p {
-  font-size: 20px;
-  line-height: 32px;
-  margin-top: 70px 
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin-top: 3rem;  
+  width: 80%;
 }
 
 .linked {
@@ -171,83 +156,84 @@ code {
   justify-content: space-around;
   align-content: space-around;
   align-items: center;
-  padding: 40px auto;
+  padding: auto;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 1rem;
+  margin: 0 2rem;
 }
 
 .beans-card {
   display: flex;
   flex-direction: column;
   background-color: var(--card);
-  padding: 40px;
+  padding: 2rem;
   align-items: center;
   text-align: center;
-  line-height: 27px;
-  border-radius: 10px;
+  line-height: 2rem;
+  border-radius: 1rem;
   justify-content: space-around;
-  gap: 8px;
-  margin-bottom: 20px;
+  margin-left: 2.5rem;
 }
 
 .special {
-  font-size: 48px;
+  font-size: 4rem;
   font-weight: bolder;
-  margin-left: 120px;
-  margin-top: 80px;
-  margin-bottom: 24px;
+  margin-left: 8rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
 }
 
 footer {
   display: flex;
   flex-direction: column;
-  min-height: 300px;
+  min-height: 10rem;
   background-color: var(--background-dark);
   color: var(--text-reversed);
   align-items: center;
   justify-content: center;
   font-weight: 400;
-  font-size: 22px;
-  margin-top: 100px;
+  font-size: 1.2rem;
+  margin-top: 5rem;
 }
 
 .find-us {
-  margin-top: 60px;
+  margin-top: 5rem;
 }
 
-.icons {
+.icons > a {
   display: flex;
-  flex-direction: row;
-  gap: 10px;
-  height: 26px;
-  width: 32px;
-  left: 10px;
-  top: 3px;
-  margin: 60px 616px 20px 616px;
+  flex-direction: row; 
+}
+
+.fa-brands {
+  gap: 1rem;
+  height: 2rem;
+  width: 2rem;
+  margin-bottom: 2rem;
 }
 
 .nav-links a {
   display: inline-block;
   text-decoration: none;
-  color: #000;
-  padding: 8px 16px;
+  color: var(--text-primary);
+  padding: 1rem;
  }
  
  .nav-links a:hover {
-  background-color: #ddd;
+  background-color: var(--card);
   color: black;
  }
  
  .hamburger-menu {
   cursor: pointer;
   display: none;
-  margin: 32px;
+  margin: 2rem;
  }
  
  .hamburger-menu .about, .hamburger-menu .selection, .hamburger-menu .login {
-  width: 35px;
+  width: 2rem;
   height: 5px;
-  background-color: #333;
+  background-color: var(--primary-pink);
   margin: 6px 0;
   transition: 0.4s;
  }

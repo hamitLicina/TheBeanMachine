@@ -1,228 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./selection.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/18795bf9d8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>The Bean Machine</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./reset.css">
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./selection.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/18795bf9d8.js" crossorigin="anonymous"></script>
-  <title>The Bean Machine</title>
-</head>
-
-<body>
-
-  <!-- nav -->
-  <div class="navbar-container">
-    <h5 class="headline">The Bean Machine<a class="gohome" href="./index.html"><i class="fa-solid fa-house"></i></a></h5>
-    <div class="nav-links">
-      <a class="about" href="./index.html">About</a>
-      <a class="selection" href="./selection.html">Selection</a>
-      <button class="login">LOG IN</button>
-    </div>
-    <div class="hamburger-menu">
-      <div class="about"></div>
-      <div class="selection"></div>
-      <div class="login"></div>
-     </div>
-  </div>
-
-  <!-- selection section -->
-  <section>
-    <div class="selection-container">
-      <div class="slctn-headline">
-        <h2 class="selection-headline">Selection</h2>
+  <body>
+    <!-- nav -->
+    <div class="navbar-container">
+      <h5 class="headline">
+        The Bean Machine<a class="gohome" href="./index.html"
+          ><i class="fa-solid fa-house"></i
+        ></a>
+      </h5>
+      <div class="nav-links">
+        <a class="about" href="./index.html">About</a>
+        <a class="selection" href="./selection.html">Selection</a>
+        <button class="login">LOG IN</button>
       </div>
-      <div class="dropdown">
-        <a class="sort" href="#">Sort</a>
-        <button class="dropbtn">PRICE <img src="./assets/arrow_right.png" alt="arrow"></button>
-        <div class="dropdown-content">
-          <a href="#"></a>
-        </div>
+      <div class="hamburger-menu">
+        <div class="about"></div>
+        <div class="selection"></div>
+        <div class="login"></div>
       </div>
     </div>
-    <div class="coffee-brand ">
 
-      <div class="beans-card outher-box">
-        <div class="inner-box">
-          Available
+    <!-- selection section -->
+    <section>
+      <div class="selection-container">
+        <div class="slctn-headline">
+          <h2 class="selection-headline">Selection</h2>
         </div>
-        <img class="coffe-image" src="/assets/beans-1.png" alt="Cost Rica Single Origin">
-        <div class="price">
-          <p><strong>Cost Rica Single Origin</strong></p>
-          <p class="label"><strong>$24</strong></p>
+        <div class="dropdown">
+          <a class="sort" href="#">Sort</a>
+          <button class="dropbtn">
+            PRICE <img src="./assets/arrow_right.png" alt="arrow" />
+          </button>
+          <div class="dropdown-content">
+            <a href="#"></a>
+          </div>
         </div>
-        <p class="origin">Origin</p>
-        <button class="buybtn">Buy</button>
       </div>
+      <div class="coffee-brand">
+        <div class="beans-card outher-box">
+          <div class="inner-box">Available</div>
+          <img
+            class="coffe-image"
+            src="/assets/beans-1.png"
+            alt="Cost Rica Single Origin"
+          />
+          <div class="price">
+            <p><strong>Cost Rica Single Origin</strong></p>
+            <p class="label"><strong>$24</strong></p>
+          </div>
+          <p class="origin">Origin</p>
+          <button class="buybtn">Buy</button>
+        </div>
 
-      <div class="beans-card outher-box">
-        <div class="inner-box">
-          Available
+        <div class="beans-card outher-box">
+          <div class="inner-box">Available</div>
+          <img
+            class="coffe-image"
+            src="/assets/beans-2.png"
+            alt="Brazil Medium Roast"
+          />
+          <div class="price">
+            <p><strong>Brazil Medium Roast</strong></p>
+            <p class="label"><strong>$24</strong></p>
+          </div>
+          <p class="origin">Origin</p>
+          <button class="buybtn">Buy</button>
         </div>
-        <img class="coffe-image" src="/assets/beans-2.png" alt="Brazil Medium Roast">
-        <div class="price">
-          <p><strong>Brazil Medium Roast</strong></p>
-          <p class="label"><strong>$24</strong></p>
+
+        <div class="beans-card outher-box">
+          <div class="inner-box">Available</div>
+          <img
+            class="coffe-image"
+            src="/assets/beans-3.png"
+            alt="Colombia Single Origin"
+          />
+          <div class="price">
+            <p><strong>Colombia Single Origin</strong></p>
+            <p class="label"><strong>$24</strong></p>
+          </div>
+          <p class="origin">Origin</p>
+          <button class="buybtn">Buy</button>
         </div>
-        <p class="origin">Origin</p>
-        <button class="buybtn">Buy</button>
+
+        <div class="beans-card outher-box">
+          <div class="inner-box">Available</div>
+          <img
+            class="coffe-image"
+            src="/assets/beans-1.png"
+            alt="Cost Rica Single Origin"
+          />
+          <div class="price">
+            <p><strong>Cost Rica Single Origin</strong></p>
+            <p class="label"><strong>$24</strong></p>
+          </div>
+          <p class="origin">Origin</p>
+          <button class="buybtn">Buy</button>
+        </div>
+
+        <div class="beans-card outher-box">
+          <div class="inner-box">Available</div>
+          <img
+            class="coffe-image"
+            src="/assets/beans-2.png"
+            alt="Brazil Medium Roast"
+          />
+          <div class="price">
+            <p><strong>Brazil Medium Roast</strong></p>
+            <p class="label"><strong>$24</strong></p>
+          </div>
+          <p class="origin">Origin</p>
+          <button class="buybtn">Buy</button>
+        </div>
+
+        <div class="beans-card outher-box">
+          <div class="inner-box">Available</div>
+          <img
+            class="coffe-image"
+            src="/assets/beans-3.png"
+            alt="Colombia Single Origin"
+          />
+          <div class="price">
+            <p><strong>Colombia Single Origin</strong></p>
+            <p class="label"><strong>$24</strong></p>
+          </div>
+          <p class="origin">Origin</p>
+          <button class="buybtn">Buy</button>
+        </div>
+
+        <div class="beans-card outher-box">
+          <div class="inner-box">Available</div>
+          <img
+            class="coffe-image"
+            src="/assets/beans-1.png"
+            alt="Cost Rica Single Origin"
+          />
+          <div class="price">
+            <p><strong>Cost Rica Single Origin</strong></p>
+            <p class="label"><strong>$24</strong></p>
+          </div>
+          <p class="origin">Origin</p>
+          <button class="buybtn">Buy</button>
+        </div>
+
+        <div class="beans-card outher-box">
+          <div class="inner-box">Available</div>
+          <img
+            class="coffe-image"
+            src="/assets/beans-2.png"
+            alt="Brazil Medium Roast"
+          />
+          <div class="price">
+            <p><strong>Brazil Medium Roast</strong></p>
+            <p class="label"><strong>$24</strong></p>
+          </div>
+          <p class="origin">Origin</p>
+          <button class="buybtn">Buy</button>
+        </div>
+
+        <div class="beans-card outher-box">
+          <div class="inner-box">Available</div>
+          <img
+            class="coffe-image"
+            src="/assets/beans-3.png"
+            alt="Colombia Single Origin"
+          />
+          <div class="price">
+            <p><strong>Colombia Single Origin</strong></p>
+            <p class="label"><strong>$24</strong></p>
+          </div>
+          <p class="origin">Origin</p>
+          <button class="buybtn">Buy</button>
+        </div>
+
+        <div class="beans-card outher-box">
+          <div class="inner-box">Available</div>
+          <img
+            class="coffe-image"
+            src="/assets/beans-1.png"
+            alt="Cost Rica Single Origin"
+          />
+          <div class="price">
+            <p><strong>Cost Rica Single Origin</strong></p>
+            <p class="label"><strong>$24</strong></p>
+          </div>
+          <p class="origin">Origin</p>
+          <button class="buybtn">Buy</button>
+        </div>
+
+        <div class="beans-card outher-box">
+          <div class="inner-box">Available</div>
+          <img
+            class="coffe-image"
+            src="/assets/beans-2.png"
+            alt="Brazil Medium Roast"
+          />
+          <div class="price">
+            <p><strong>Brazil Medium Roast</strong></p>
+            <p class="label"><strong>$24</strong></p>
+          </div>
+          <p class="origin">Origin</p>
+          <button class="buybtn">Buy</button>
+        </div>
+
+        <div class="beans-card outher-box">
+          <div class="inner-box">Available</div>
+          <img
+            class="coffe-image"
+            src="/assets/beans-3.png"
+            alt="Colombia Single Origin"
+          />
+          <div class="price">
+            <p><strong>Colombia Single Origin</strong></p>
+            <p class="label"><strong>$24</strong></p>
+          </div>
+          <p class="origin">Origin</p>
+          <button class="buybtn">Buy</button>
+        </div>
       </div>
-
-      <div class="beans-card outher-box">
-        <div class="inner-box">
-          Available
-        </div>
-        <img class="coffe-image" src="/assets/beans-3.png" alt="Colombia Single Origin">
-        <div class="price">
-          <p><strong>Colombia Single Origin</strong></p>
-          <p class="label"><strong>$24</strong></p>
-        </div>
-        <p class="origin">Origin</p>
-        <button class="buybtn">Buy</button>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="find-us">
+        <p>Find us on Social Media</p>
+        <br />
       </div>
-
-
-      <div class="beans-card outher-box">
-        <div class="inner-box">
-          Available
-        </div>
-        <img class="coffe-image" src="/assets/beans-1.png" alt="Cost Rica Single Origin">
-        <div class="price">
-          <p><strong>Cost Rica Single Origin</strong></p>
-          <p class="label"><strong>$24</strong></p>
-        </div>
-        <p class="origin">Origin</p>
-        <button class="buybtn">Buy</button>
+      <div>
+        <a class="icons" href="https://github.com/hamitLicina" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a class="icons" href="https://twitter.com/HamitLICINA" target="_blank"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a class="icons" href="https://www.facebook.com/hlicina" target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          class="icons"
+          href="https://www.linkedin.com/in/hamitlicina/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
       </div>
-
-      <div class="beans-card outher-box">
-        <div class="inner-box">
-          Available
-        </div>
-        <img class="coffe-image" src="/assets/beans-2.png" alt="Brazil Medium Roast">
-        <div class="price">
-          <p><strong>Brazil Medium Roast</strong></p>
-          <p class="label"><strong>$24</strong></p>
-        </div>
-        <p class="origin">Origin</p>
-        <button class="buybtn">Buy</button>
-      </div>
-
-      <div class="beans-card outher-box">
-        <div class="inner-box">
-          Available
-        </div>
-        <img class="coffe-image" src="/assets/beans-3.png" alt="Colombia Single Origin">
-        <div class="price">
-          <p><strong>Colombia Single Origin</strong></p>
-          <p class="label"><strong>$24</strong></p>
-        </div>
-        <p class="origin">Origin</p>
-        <button class="buybtn">Buy</button>
-      </div>
-
-
-      <div class="beans-card outher-box">
-        <div class="inner-box">
-          Available
-        </div>
-        <img class="coffe-image" src="/assets/beans-1.png" alt="Cost Rica Single Origin">
-        <div class="price">
-          <p><strong>Cost Rica Single Origin</strong></p>
-          <p class="label"><strong>$24</strong></p>
-        </div>
-        <p class="origin">Origin</p>
-        <button class="buybtn">Buy</button>
-      </div>
-
-      <div class="beans-card outher-box">
-        <div class="inner-box">
-          Available
-        </div>
-        <img class="coffe-image" src="/assets/beans-2.png" alt="Brazil Medium Roast">
-        <div class="price">
-          <p><strong>Brazil Medium Roast</strong></p>
-          <p class="label"><strong>$24</strong></p>
-        </div>
-        <p class="origin">Origin</p>
-        <button class="buybtn">Buy</button>
-      </div>
-
-      <div class="beans-card outher-box">
-        <div class="inner-box">
-          Available
-        </div>
-        <img class="coffe-image" src="/assets/beans-3.png" alt="Colombia Single Origin">
-        <div class="price">
-          <p><strong>Colombia Single Origin</strong></p>
-          <p class="label"><strong>$24</strong></p>
-        </div>
-        <p class="origin">Origin</p>
-        <button class="buybtn">Buy</button>
-      </div>
-
-
-      <div class="beans-card outher-box">
-        <div class="inner-box">
-          Available
-        </div>
-        <img class="coffe-image" src="/assets/beans-1.png" alt="Cost Rica Single Origin">
-        <div class="price">
-          <p><strong>Cost Rica Single Origin</strong></p>
-          <p class="label"><strong>$24</strong></p>
-        </div>
-        <p class="origin">Origin</p>
-        <button class="buybtn">Buy</button>
-      </div>
-
-      <div class="beans-card outher-box">
-        <div class="inner-box">
-          Available
-        </div>
-        <img class="coffe-image" src="/assets/beans-2.png" alt="Brazil Medium Roast">
-        <div class="price">
-          <p><strong>Brazil Medium Roast</strong></p>
-          <p class="label"><strong>$24</strong></p>
-        </div>
-        <p class="origin">Origin</p>
-        <button class="buybtn">Buy</button>
-      </div>
-
-      <div class="beans-card outher-box">
-        <div class="inner-box">
-          Available
-        </div>
-        <img class="coffe-image" src="/assets/beans-3.png" alt="Colombia Single Origin">
-        <div class="price">
-          <p><strong>Colombia Single Origin</strong></p>
-          <p class="label"><strong>$24</strong></p>
-        </div>
-        <p class="origin">Origin</p>
-        <button class="buybtn">Buy</button>
-      </div>
-
-    </div>
-
-  </section>
-  <!-- footer -->
-  <footer>
-    <div class="find-us">
-      <p>Find us on Social Media</p> <br>
-    </div>
-    <div class="icons">
-      <i class="fa-brands fa-github"></i>
-      <i class="fa-brands fa-twitter"></i>
-      <i class="fa-brands fa-facebook"></i>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>

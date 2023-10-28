@@ -1,103 +1,105 @@
 :root {
   /* Colors-What-I-Need */
-  --background-color: #FFFFFF;
-  --background-dark: #1D1C1C;
-  --card: #F6F2EF;
-  --accent-magenta: #FF5678;
+  --background-color: #ffffff;
+  --background-dark: #1d1c1c;
+  --card: #f6f2ef;
+  --accent-magenta: #ff5678;
   --accent-green: #149770;
-  --text-primary: #1D1C1C;
+  --text-primary: #1d1c1c;
   --text-secondary: #787878;
-  --text-reversed: #FFFFFF;
-  --primary-pink: #F45678;
+  --text-reversed: #ffffff;
+  --primary-pink: #f45678;
 }
-
-.container {
-  margin: 0 auto;
-  width: 80%;
-}
-
-/* Add styles here */
 
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
 }
 
 .headline {
   color: var(--accent-magenta);
   font-weight: bold;
-  font-size: 18px;
+  margin: 45px auto auto 120px;
+  font-size: 1.2rem;
 }
 
-.about, .selection {
-text-decoration: none; 
-color: var(--text-primary);
-margin: 38px auto auto 40px;
+.gohome {
+  margin: 1rem;
+  color: #f45678;
+}
+
+.about,
+.selection {
+  color: var(--text-primary);
+  margin: 2rem auto auto 2rem;
+  border-radius: 1rem;
 }
 
 .login {
-background-color: var(--primary-pink);
-border-radius: 20px;
-align-items: center;
-text-align: center;
-letter-spacing: 3px;
-color: var(--text-reversed);
-border-color: var(--primary-pink);
-margin: 38px 140px auto 40px;
+  background-color: var(--primary-pink);
+  border-radius: 1, 1rem;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  color: var(--text-reversed);
+  border-color: var(--primary-pink);
+  margin: 2rem 5rem auto 2rem;
 }
 
-
 button {
-background-color: var(--primary-pink);
-color: var(--background-color);
-border-radius: 20px;
-padding: 10px 20px;
-border-color: var(--background-color);
-border: none;
+  background-color: var(--primary-pink);
+  color: var(--background-color);
+  border-radius: 1rem;
+  padding: 10px 20px;
+  border-color: var(--background-color);
+  border: none;
 }
 
 .selection-headline {
-font-weight: 800;
-font-size: 48px;
-line-height: 65px;
+  font-weight: 800;
+  font-size: 4rem;
+  line-height: 3rem;
+  margin-left: 7rem;
 }
 
 .selection-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 40px auto;
+  margin: 4rem auto;
 }
 
 .sort {
-  text-decoration: none; 
+  text-decoration: none;
   color: var(--text-primary);
-  font-size: 20px;
-  margin-right: 24px;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .dropbtn {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 1.2rem;
   align-items: center;
   text-align: center;
   letter-spacing: 3px;
   color: var(--text-primary);
   background-color: var(--card);
-  border-radius: 24px;
-  padding: 12px 22px;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  margin-left: 1rem;
   justify-content: space-between;
-  margin-right: 24px;
+  margin-right: 4rem;
 }
 
 .dropbtn > img {
   background-color: var(--text-primary);
   transform: rotate(90deg);
-  border-radius: 22px;
-  size: 22px;
+  border-radius: 1.4rem;
+  size: 1.5rem;
 }
 
 .coffee-brand {
@@ -105,21 +107,21 @@ line-height: 65px;
   justify-content: space-around;
   align-content: space-around;
   align-items: center;
-  padding: 40px auto;
+  padding: 3rem auto;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 3rem;
 }
 div > p > strong {
   align-self: flex-start;
-  font-size: 16px;
+  font-size: 1.1rem;
 }
 .price {
   display: flex;
   justify-content: space-between;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
   align-items: center;
   width: 100%;
 }
@@ -135,154 +137,136 @@ div > p > strong {
 
 .buybtn {
   background: var(--accent-magenta);
-  border-radius: 24px;
+  border-radius: 1.5rem;
   justify-self: center;
   align-items: center;
   text-align: center;
-  padding: 12px 58px;
+  padding: 1rem 4rem;
 }
-/*
-.outer-box {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--card);
-  position: relative;
-  height: 446px;
-  width: 373px;
-  left: 120px;
-  top: 281px;
-  border-radius: 16px;
-  padding: 40px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  line-height: 27px;
-  gap: 8px;
-  flex: 1 1 auto;
-} 
-*/
 .beans-card {
   justify-content: flex-start;
   justify-content: space-around;
   position: relative;
-  width: 300px;
-/*   flex-basis: 200px; */
+  width: 20rem;
 }
 
 .inner-box {
   position: absolute;
-  top: 25px;
+  top: 1.5rem;
   right: 0;
-  width: 115px;
-  height: 30px;
+  width: 8rem;
+  height: 2rem;
   color: var(--text-reversed);
-  border-radius: 20px 0 0 20px;
+  border-radius: 1rem 0 0 1rem;
   background-color: var(--accent-green);
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 700;
   font-family: Nunito;
 }
 
 .coffee-image {
-  width: 100%;
-  
-}
-
-
-.special {
-  font-size: 48px;
-  font-weight: bolder;
-  margin: 10px 10px 24px 12px;
-}
-
-section {
-  margin: 120px 120px;
+  width: 90%;
 }
 
 footer {
   display: flex;
   flex-direction: column;
-  min-height: 300px;
+  min-height: 10rem;
   background-color: var(--background-dark);
   color: var(--text-reversed);
   align-items: center;
   justify-content: center;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 1.2rem;
+  margin-top: 5rem;
 }
 
 .find-us {
-  margin-top: 60px;
+  margin-top: 5rem;
 }
 
-.icons {
+.icons > a {
   display: flex;
   flex-direction: row;
-  gap: 10px;
-  height: 26px;
-  width: 32px;
-  left: 10px;
-  top: 3px;
-  margin: 10px;
+}
+
+.fa-brands {
+  gap: 1rem;
+  height: 2rem;
+  width: 2rem;
+  margin-bottom: 2rem;
 }
 
 .nav-links a {
   display: inline-block;
   text-decoration: none;
-  color: #000;
-  padding: 8px 16px;
- }
- 
- .nav-links a:hover {
-  background-color: #ddd;
-  color: black;
- }
- 
- .hamburger-menu {
-  cursor: pointer;
-  display: none;
-  margin: 32px;
- }
- 
- .hamburger-menu .about, .hamburger-menu .selection, .hamburger-menu .login {
-  width: 35px;
-  height: 5px;
-  background-color: #333;
-  margin: 6px 0;
-  transition: 0.4s;
- }
-
-  /* Tablet */
-  @media (max-width: 768px) {
-  .outer-box {
-    width: 50%;
-  }
-  
-  .nav-links {
-    display: none;
- }
-
- .hamburger-menu {
-    display: block;
- }
- 
- .sort {display: none;}
+  color: var(--text-primary);
+  padding: 1rem;
 }
 
-.gohome {margin: 16px; color: #F45678;}
+.nav-links a:hover {
+  background-color: var(--card);
+  color: black;
+}
 
-  /* Mobile */
-  @media (max-width: 500px) {
+.hamburger-menu {
+  cursor: pointer;
+  display: none;
+  margin: 2rem;
+}
+
+.hamburger-menu .about,
+.hamburger-menu .selection,
+.hamburger-menu .login {
+  width: 2rem;
+  height: 5px;
+  background-color: var(--primary-pink);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .outer-box {
+    width: 40%;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .beans-card > img {
+    width: 230px;
+  }
+
+  .sort {
+    display: none;
+  }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
   .outer-box {
     width: 100%;
   }
-  
+
   .nav-links {
     display: none;
- }
+  }
 
- .hamburger-menu {
+  .hamburger-menu {
     display: block;
- }
+  }
 
- .sort {display: none;}
+  .beans-card > img {
+    width: 200px;
+  }
+
+  .sort {
+    display: none;
+  }
 }

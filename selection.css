@@ -11,21 +11,6 @@
   --primary-pink: #F45678;
 }
 
-h1, h2 {
- font-family: 'Nunito', sans-serif;
-}
-
-p, a {
-  font-family: 'Nunito Sans', sans-serif;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .container {
   margin: 0 auto;
   width: 80%;

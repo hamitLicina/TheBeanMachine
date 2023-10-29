@@ -207,6 +207,7 @@ footer {
 .icons > a {
   display: flex;
   flex-direction: row;
+  color: #f45678;
 }
 
 .fa-brands {

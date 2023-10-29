@@ -79,6 +79,8 @@ button {
 }
 
 .dropbtn {
+  display: flex;
+  justify-content: space-between;
   font-family: "Nunito";
   font-style: normal;
   font-weight: 800;
@@ -223,6 +225,15 @@ footer {
   background-color: var(--primary-pink);
   margin: 6px 0;
   transition: 0.4s;
+}
+
+
+/* Tablet */
+@media (max-width: 796px) {
+  .login {display: none;}
+  .selection-headline {font-size: 3rem;
+    line-height: 2rem;
+    margin-left: 7rem;}
 }
 
 /* Tablet */

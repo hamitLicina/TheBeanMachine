@@ -1,5 +1,4 @@
 :root {
-  /* Colors-What-I-Need */
   --background-color: #ffffff;
   --background-dark: #1d1c1c;
   --card: #f6f2ef;
@@ -30,8 +29,7 @@
   color: #f45678;
 }
 
-.about,
-.selection {
+.about, .selection {
   color: var(--text-primary);
   margin: 2rem auto auto 2rem;
   border-radius: 1rem;
@@ -39,7 +37,7 @@
 
 .login {
   background-color: var(--primary-pink);
-  border-radius: 1, 1rem;
+  border-radius: 1.1rem;
   align-items: center;
   text-align: center;
   letter-spacing: 2px;
@@ -53,7 +51,6 @@ button {
   color: var(--background-color);
   border-radius: 1rem;
   padding: 10px 20px;
-  border-color: var(--background-color);
   border: none;
 }
 
@@ -94,7 +91,6 @@ button {
   border-radius: 1.5rem;
   padding: 1rem;
   margin-left: 1rem;
-  justify-content: space-between;
   margin-right: 4rem;
 }
 
@@ -114,10 +110,12 @@ button {
   flex-wrap: wrap;
   gap: 3rem;
 }
+
 div > p > strong {
   align-self: flex-start;
   font-size: 1.1rem;
 }
+
 .price {
   display: flex;
   justify-content: space-between;
@@ -146,6 +144,7 @@ div > p > strong {
   text-align: center;
   padding: 1rem 4rem;
 }
+
 .beans-card {
   justify-content: flex-start;
   justify-content: space-around;
@@ -228,13 +227,16 @@ footer {
   transition: 0.4s;
 }
 
-
 /* Tablet */
 @media (max-width: 796px) {
-  .login {display: none;}
-  .selection-headline {font-size: 3rem;
+  .login {
+    display: none;
+  }
+  .selection-headline {
+    font-size: 3rem;
     line-height: 2rem;
-    margin-left: 7rem;}
+    margin-left: 7rem;
+  }
 }
 
 /* Tablet */
